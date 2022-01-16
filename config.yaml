@@ -32,12 +32,12 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: to-kvsh-xyz
-    name: The Flood UI
-    url: 'http://193.123.94.206/'
+  - id: kvsh-xyz
+    name: Homepage
+    url: 'http://152.70.76.66'
     method: GET
     expectStatus: 200
-    linkable: false
+    linkable: true
     followRedirect: false # should fetch follow redirects, default=false
   
   - id: qbit2-kvsh-xyz
