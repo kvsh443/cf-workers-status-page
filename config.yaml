@@ -38,7 +38,7 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
   
   - id: qbit2-kvsh-xyz
     name: The Q 2 UI
@@ -46,4 +46,4 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
