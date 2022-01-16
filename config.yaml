@@ -34,7 +34,7 @@ monitors:
 
   - id: to-kvsh-xyz
     name: The Flood UI
-    url: 'https://to.kvsh.xyz'
+    url: 'http://193.123.94.206/'
     method: GET
     expectStatus: 200
     linkable: false
