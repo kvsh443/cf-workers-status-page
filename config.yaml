@@ -42,7 +42,7 @@ monitors:
     
     - id: qbit-kvsh-xyz
     name: The Q 2 UI
-    url: 'http://193.123.64.209/'
+    url: 'http://193.123.64.209'
     method: GET
     expectStatus: 200
     linkable: false
