@@ -17,17 +17,17 @@ settings:
 monitors:
   - id: minecraft-kvsh-xyz # unique identifier
     name: minecraft.kvsh.xyz
-    description: 'Play and Find Others.' # default=empty
+    description: 'Play and Find Others on Map.' # default=empty
     url: 'http://minecraft.kvsh.xyz' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: wgui-kvsh-xyz
+    name: wgui.kvsh.xyz
+    description: 'Built for connect many things to the Wireguard.'
+    url: 'https://wgui.kvsh.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
