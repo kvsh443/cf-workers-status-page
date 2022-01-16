@@ -38,4 +38,4 @@ monitors:
     method: GET
     expectStatus: 304
     linkable: false
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
