@@ -18,7 +18,7 @@ monitors:
   - id: minecraft-kvsh-xyz # unique identifier
     name: minecraft.kvsh.xyz
     description: 'Play and Find Others.' # default=empty
-    url: 'http://minecraft.kvsh.xyz:8100/' # URL to fetch
+    url: 'http://minecraft.kvsh.xyz:8100' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
