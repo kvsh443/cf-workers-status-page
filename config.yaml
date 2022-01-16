@@ -34,15 +34,15 @@ monitors:
 
   - id: to-kvsh-xyz
     name: The Flood UI
-    url: 'http://193.123.94.206'
+    url: 'http://193.123.94.206/'
     method: GET
     expectStatus: 200
     linkable: false
     followRedirect: true # should fetch follow redirects, default=false
   
-  - id: qbit-kvsh-xyz
+  - id: qbit2-kvsh-xyz
     name: The Q 2 UI
-    url: 'http://193.123.64.209'
+    url: 'http://193.123.64.209/'
     method: GET
     expectStatus: 200
     linkable: false
