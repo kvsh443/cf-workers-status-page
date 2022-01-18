@@ -44,6 +44,6 @@ monitors:
     name: The Q 2 UI
     url: 'https://qbit2.kvsh.xyz/'
     method: GET
-    expectStatus: 200
+    expectStatus: 304
     linkable: false
     followRedirect: false # should fetch follow redirects, default=false
