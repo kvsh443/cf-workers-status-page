@@ -50,8 +50,8 @@ monitors:
    
   - id: qbit1-kvsh-xyz
     name: The Q 1 UI
-    url: 'https://qbit1.kvsh.xyz/'
+    url: 'https://qbit.kvsh.xyz/'
     method: GET
-    expectStatus: 200
+    expectStatus: 304
     linkable: false
     followRedirect: false # should fetch follow redirects, default=false
