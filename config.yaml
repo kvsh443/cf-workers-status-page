@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status.kvsh.xyz' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -43,6 +43,14 @@ monitors:
   - id: qbit2-kvsh-xyz
     name: The Q 2 UI
     url: 'https://qbit2.kvsh.xyz/'
+    method: GET
+    expectStatus: 304
+    linkable: false
+    followRedirect: false # should fetch follow redirects, default=false
+   
+  - id: qbit1-kvsh-xyz
+    name: The Q 1 UI
+    url: 'https://qbit1.kvsh.xyz/'
     method: GET
     expectStatus: 304
     linkable: false
