@@ -1,4 +1,4 @@
-# Cloudflare Worker - Status Page[![Deploy](https://github.com/kvsh443/cf-workers-status-page/actions/workflows/deploy.yml/badge.svg)](https://github.com/kvsh443/cf-workers-status-page/actions/workflows/deploy.yml)
+# Cloudflare Worker - Status Page [![Deploy](https://github.com/kvsh443/cf-workers-status-page/actions/workflows/deploy.yml/badge.svg)](https://github.com/kvsh443/cf-workers-status-page/actions/workflows/deploy.yml)
 
 Monitor your websites, showcase status including daily history, and get Slack notification whenever your website status changes. Using **Cloudflare Workers**, **CRON Triggers,** and **KV storage**. 🚀
 
