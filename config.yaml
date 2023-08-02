@@ -24,10 +24,10 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: wgui-kvsh-xyz
-    name: wgui.kvsh.xyz
-    description: 'Built for connect many things to the Wireguard.'
-    url: 'https://wgui.kvsh.xyz'
+  - id: has-kvsh-xyz
+    name: has.kvsh.xyz
+    description: 'Built for connect to the Home Assistant.'
+    url: 'https://has.kvsh.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
