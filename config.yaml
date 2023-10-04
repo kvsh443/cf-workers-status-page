@@ -25,7 +25,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: has-kvsh-xyz
-    name: has.kvsh.xyz
+    name: Home Assistant
     description: 'Built for connect to the Home Assistant.'
     url: 'https://has.kvsh.xyz'
     method: GET
