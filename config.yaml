@@ -26,8 +26,8 @@ monitors:
 
   - id: has-kvsh-xyz
     name: Home Assistant
-    description: 'Built for connect to the Home Assistant.'
-    url: 'https://has.kvsh.xyz'
+    description: 'Built for connect to the Home.'
+    url: 'https://rd.kvsh.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
