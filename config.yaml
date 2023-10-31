@@ -34,7 +34,7 @@ monitors:
 
   - id: kvsh-xyz
     name: Homepage
-    url: 'https://kvsh.xyz'
+    url: 'https://www.kvsh.xyz'
     method: GET
     expectStatus: 200
     linkable: true
