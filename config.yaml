@@ -25,9 +25,9 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: has-kvsh-xyz
-    name: Remote Home Assistant
-    description: 'Built for connect to the Home.'
-    url: 'https://rd.kvsh.xyz'
+    name: Remote Uptime Assistant
+    description: 'Built for checking connection to the Home.'
+    url: 'https://infrastructure.kvsh.xyz/dashboard'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
